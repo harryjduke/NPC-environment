@@ -15,7 +15,7 @@ ANPC_AIController::ANPC_AIController()
 void ANPC_AIController::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
