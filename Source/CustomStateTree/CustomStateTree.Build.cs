@@ -9,7 +9,7 @@ public class CustomStateTree : ModuleRules
         PublicDependencyModuleNames.AddRange(
             new string[]
             {
-                "Core", "Engine", "AIModule", "GameplayStateTreeModule", "GameplayTasks", "NavigationSystem", "StateTreeModule"
+                "Core", "Engine", "AIModule", "GameplayStateTreeModule", "GameplayTasks", "NavigationSystem", "StateTreeModule", "GameplayAbilities"
             }
         );
 
