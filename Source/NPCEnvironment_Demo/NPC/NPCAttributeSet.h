@@ -29,6 +29,12 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Attributes")
 	FGameplayAttributeData Hunger;
 
+	/**
+	 * The tiredness level of the NPC, the higher the value the more tired the NPC is.
+	 */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Attributes")
+	FGameplayAttributeData Tiredness;
+
 public:
 	GAMEPLAYATTRIBUTE_PROPERTY_GETTER(UNPCAttributeSet, Thirst);
 	GAMEPLAYATTRIBUTE_VALUE_GETTER(Thirst);
@@ -39,5 +45,10 @@ public:
 	GAMEPLAYATTRIBUTE_VALUE_GETTER(Hunger);
 	GAMEPLAYATTRIBUTE_VALUE_SETTER(Hunger);
 	GAMEPLAYATTRIBUTE_VALUE_INITTER(Hunger);
+
+	GAMEPLAYATTRIBUTE_PROPERTY_GETTER(UNPCAttributeSet, Tiredness);
+	GAMEPLAYATTRIBUTE_VALUE_GETTER(Tiredness);
+	GAMEPLAYATTRIBUTE_VALUE_SETTER(Tiredness);
+	GAMEPLAYATTRIBUTE_VALUE_INITTER(Tiredness);
 
 };
