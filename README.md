@@ -2,7 +2,7 @@
 
 An AI NPC simulation developed in Unreal Engine that facilitates emergent gameplay. The system uses a needs-based, reactive approach, built with C++ and Unreal's State Trees to create a dynamic world with unscripted gameplay opportunities.
 
-[![Showcase Video](https://img.youtube.com/vi/v6w6LgyzEj0/0.jpg)](https://youtu.be/v6w6LgyzEj0)
+[![Showcase Video](https://img.youtube.com/vi/v6w6LgyzEj0/hqdefault.jpg)](https://youtu.be/v6w6LgyzEj0)
 
 > [!IMPORTANT]
 > This repository contains only the source code for the project. The `Content` folder, has been intentionally excluded to respect third-party asset licenses. As a
